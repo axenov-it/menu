@@ -1,0 +1,32 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.menu {
+  display: flex;
+  background: #000;
+}
+
+.menu__link {
+  padding: 10px 25px;
+  color: #fff;
+  display: block;
+}
+
+.menu__link:hover {
+  background: #3b3b41ad;
+}
